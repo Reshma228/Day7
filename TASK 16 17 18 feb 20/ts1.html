@@ -1,0 +1,53 @@
+<html>
+    <head>
+    <style>
+        form{
+border: 2px solid gray;
+            display:flex;
+            flex-direction: column;
+            width:20%;
+            padding:20px;
+            height:50vh;
+            background-image: linear-gradient(45deg,white,blue,black);
+
+            
+        }
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height: 100vh;
+           
+        
+        }
+       label{
+        margin-top:10px;
+       }
+       input{
+        margin-top: 7px;
+        width:80%
+       }
+       button{
+        margin-top:10px;
+        width:30%;
+        margin-left:30%;
+       }
+    </style>
+        
+    </head>
+    <body>
+       <form action="../TASK 15/login.html" method ="post">
+        <label for = "first name*">first name*</label>
+        <input type = "text", id = "first name*", name="user", placeholder="first name"required>
+        <label for = "last name*">last name*</label>
+        <input type = "text", id = "last name*", name="user", placeholder="last name"required>
+        <label for = "email*">email*</label>
+        <input type = "email", id = "email*", name="user", placeholder="email"required>
+        <label for = "mobile no*">mobile no*</label>
+        <input type = "tel", id = "mobile no*", name="user", placeholder="mobile no."required>
+        <button>Submit</button>
+    </form>
+        
+        
+    </body>
+</html>
